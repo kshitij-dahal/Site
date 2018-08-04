@@ -1,0 +1,74 @@
+body
+{
+    background-color:#272b1f;
+}
+
+.nav_bar a
+{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.nav_bar
+{
+    text-align: right;
+}
+
+.nav_text 
+{
+   padding: 10px; 
+}
+
+
+
+.img_slogan img {
+    width: 100%;
+    height: 700px;
+}
+
+#img_text 
+{
+    border: 1px solid black;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+
+#left_img 
+{
+    width: 50%;
+    float:left; /* add this */
+}
+
+#img_src
+{
+width:100%;
+}
+
+#right_text 
+{
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+
+#become_driver
+{
+    height:200px;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 30px 10%;
+    text-decoration: none;
+    margin: 70px 70px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+
+
+
