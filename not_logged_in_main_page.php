@@ -10,8 +10,8 @@
             <div class = "nav_bar">
                 <a href = ""><h1 class = "nav_text">Login</h1></a>
             </div>
-            <div id = "img_slogan">
-            
+            <div class = "img_slogan">
+              <!-- <h2>Soar</h2> -->
             </div>
         </div>
             <div class = "bottom_area">
@@ -23,9 +23,7 @@
                 fasdfsa
                     </div>
                 </div>
-
                 <div id = "become_driver">
-
                     <input id = "button" type = "button" name = "become_driver_accepted" value = "Become a Driver">
                 </div>
             </div>

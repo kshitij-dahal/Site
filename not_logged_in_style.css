@@ -1,6 +1,6 @@
 body
 {
-    background-color:#white;
+    background-color:#312d24;
 }
 
 html, body {
@@ -20,7 +20,7 @@ html, body {
     text-align: right;
     margin: 0;
     padding-top: 1%;
-    padding-right: 2%;
+    padding-right: 2`%;
 }
 
 .nav_text 
@@ -35,9 +35,16 @@ h1
     font-weight: 200;
 }
 
-#img_slogan {
-    width:100%;
+.center_text
+{
+    text-align: center;
 }
+
+h2
+{
+    color: white;
+}
+
 
 #img_text 
 {
@@ -80,7 +87,7 @@ input[type=button], input[type=submit], input[type=reset] {
 
 .top_area
 {
-    background-image: url("img/car_fog_trees_third.jpg");
+    background-image: url("img/car_fog_trees_third.jpg")
 
     /* Full height */
     height: 100%; 
@@ -89,19 +96,49 @@ input[type=button], input[type=submit], input[type=reset] {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+
 }
 
-.bottom_area
+
+.bottom_area {
+    background-image: url("img/car_fog_trees_third.jpg"); 
+    width:100%; 
+    top:100%; 
+    height: 100px;
+}
+
+.img_slogan
 {
-   
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;  
+text-align: center;
+vertical-align: middle;
 }
+
+h2
+{
+font-size: 200px;
+font-weight: 50;
+font-family: "Times New Roman";
+margin-top: 20%;
+}
+
+body, html {
+    height:100%;
+    width:100%;
+    margin:0;
+}
+.top_area {
+    height:100%;
+    width:100%;
+    background: url("img/car_fog_trees_third.jpg") no-repeat 50%/cover;
+    background-attachment: fixed;
+}
+.bottom_area {
+    height:100%;
+    width:100%;
+    background: url("img/car_fog_trees_third.jpg") no-repeat 50%/cover;
+}
+
 
 
 
