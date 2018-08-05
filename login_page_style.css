@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+}
+
+body { 
+    /* The image used */
+    background-image: url("img/car_fog_trees_third.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login_area
+{
+	background-color: rgba(230, 230, 230,0.6);
+	height: 200px;
+	width:400px;
+	line-height: 2;
+	text-align: center;
+	margin:0 auto;
+	 position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  border-radius: 12px;
+}
+
+form
+{
+	text-align: center;
+    position: relative;
+    top: 20%;
+    font-size:20px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+     width:200px;
+   padding: 4px 0px;
+   margin-top: 10px;
+   font-size:20px;
+   background-color: #99c2ff;
+   border-radius: 10px;
+  color: white;
+  font-family:sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+input[type = text]
+{
+
+}
+
+h1
+{
+    margin:0;
+    font-family:sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+}
