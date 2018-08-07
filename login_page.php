@@ -12,8 +12,12 @@
 				<br>
 				Password:
 				<input type = "Password" name = "password">
-				<h1><input type ="button" value = "Login" name = "Submit"></h1>
+				<button type = "submit"><h1>Login</h1></button>
 			</form>
+			<?php
+				
+				echo $_POST['username'];
+			?>
 		</div>
 	</body>
 </html>

@@ -4,7 +4,7 @@ body, html {
 
 body { 
     /* The image used */
-    background-image: url("img/car_fog_trees_third.jpg");
+    background-image: url("img/option2.jpg");
 
     /* Full height */
     height: 100%; 
@@ -54,6 +54,20 @@ input[type=button], input[type=submit], input[type=reset] {
 input[type = text]
 {
 
+}
+
+button
+{
+	  width:200px;
+   padding: 4px 0px;
+   margin-top: 10px;
+   font-size:20px;
+   background-color: #99c2ff;
+   border-radius: 10px;
+  color: white;
+  font-family:sans-serif;
+    font-weight: 200;
+    font-size: 30px;
 }
 
 h1
